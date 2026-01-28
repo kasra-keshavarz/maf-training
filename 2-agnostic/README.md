@@ -82,7 +82,7 @@ $HOME/github-repos/gistool/extract-gis.sh --dataset=landsat \
   --cache=$SCRATCH/cache/ \
   --prefix=bc_model_ \
   --fid=COMID \
-  --cluster=$HOME/github-repos/gistool/etc/clusters/darc.json \
+  --cluster=$HOME/github-repos/gistool/etc/clusters/drac.json \
   --include-na;
 ```
 

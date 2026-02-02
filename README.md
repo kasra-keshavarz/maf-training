@@ -91,6 +91,12 @@ to such node:
 ssh login1
 ```
 
+> [!NOTE]
+> If you have previously attempted making the same virtual environment
+> and would like a fresh start, make sure you delete the previous
+> one entirely and start from scratch. If you would like to delete
+> the previous environment, run `rm -r $HOME/virtual-envs/scienc/`
+
 After switching to a login node, we can proceed with configuring
 our virtual environment.
 

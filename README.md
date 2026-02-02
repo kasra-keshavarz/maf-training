@@ -77,6 +77,23 @@ To download this repository on the `$HOME` directory:
 git clone https://github.com/kasra-keshavarz/maf-training.git $HOME/github-repos/maf
 ```
 
+> [!NOTE]
+> Due to the way JupyterLab is configured on Fir, we have to
+> briefly switch to a **login node** to configure a Python
+> virtual environment. This added step is feasible with the
+> prompt below. Please note that you will need your 
+> Digital Research Alliance of Canada's password and your
+> Multi-Factor Authentication (e.g., Duo Mobile) to login.
+
+In order to switch to a login node on Fir, you can `ssh` directly
+to such node:
+```console
+ssh login1
+```
+
+After switching to a login node, we can proceed with configuring
+our virtual environment.
+
 You may create Python virtual environments (after assuring all
 the modules are loaded) on HPCs, to isolate the environment
 to execute the workflows. On HPCs, typically, it is recommended to use

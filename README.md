@@ -95,7 +95,9 @@ ssh login1
 > If you have previously attempted making the same virtual environment
 > and would like a fresh start, make sure you delete the previous
 > one entirely and start from scratch. If you would like to delete
-> the previous environment, run `rm -r $HOME/virtual-envs/scienc/`
+> the previous environment, run `rm -r $HOME/virtual-envs/scienv/`.
+> You may also remove the associated Jupyter kernel with
+> `jupyter kernelspec remove scienv` command.
 
 After switching to a login node, we can proceed with configuring
 our virtual environment.
